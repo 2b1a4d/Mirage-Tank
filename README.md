@@ -1,6 +1,11 @@
-# Mirage-Tank
-图片隐写术 (Steganography)
+# 图片隐写术之幻影坦克
+一张PNG图在黑色背景与白色背景显示内容的不同实现了两张图的信息存入一张图中
+因为该图片的特性与游戏红色警戒中的幻影坦克特性相似，故将该隐写术称为幻影坦克
 
+#Steganography of MirageTank
+The difference between the content of a PNG image on a black background and a white background realizes that the information of the two images is stored in one image
+
+Because the characteristics of the picture are similar to those of the MirageTank in the game Red Alert, the steganography is called MirageTank
 
 #原理
 利用PNG格式图片的透明通道混合公式，将里图与表图混合为一张PNG图，该混合图在黑色背景与白色背景下显示的内容不同
